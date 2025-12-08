@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
     <title>Косметологічна клініка Beaty Zone</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header section">
       <nav class="header__nav">
         <div class="header__logo">
           <a class="logo" href="index.html">
@@ -18,16 +18,18 @@
         </div>
         <ul class="header__list">
           <li class="header__item">
-            <a class="link" href="#about-us-section">Про нас</a>
+            <a class="header__link" href="#about-us-section">Про нас</a>
           </li>
           <li class="header__item">
-            <a class="link" href="#why-us-section">Чому ми</a>
+            <a class="header__link" href="#why-us-section">Чому ми</a>
           </li>
           <li class="header__item">
-            <a class="link" href="#our-procedures-section">Наші процедури</a>
+            <a class="header__link" href="#our-procedures-section"
+              >Наші процедури</a
+            >
           </li>
           <li class="header__item">
-            <a class="link" href="#contacts-section">Контакти</a>
+            <a class="header__link" href="#contacts-section">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -50,32 +52,42 @@
       </div>
     </header>
     <main>
-      <section class="hero-section">
+      <section class="hero-section section">
         <p class="hero-section__text">Косметологічна клініка</p>
-        <h1 class="hero-section__heading">Beaty Zone</h1>
-        <button class="hero-section__button" type="button">
+        <h1
+          class="hero-section__heading section__heading section__heading--large section__heading--highlight section__heading--capitalize"
+        >
+          Beaty Zone
+        </h1>
+        <button class="hero-section__btn btn" type="button">
           Замовити дзвінок
         </button>
         <p class="hero-section__text" class="bottom-text">
           Запишись та отримай безкоштовну консультацію нашого косметолога
         </p>
       </section>
-      <section id="about-us-section">
+      <section class="about-us-section section" id="about-us-section">
         <div class="about-us-section__container">
           <div class="about-us-section__text-container">
-            <h2 class="about-us-section__heading">
+            <h2 class="about-us-section__heading section__heading">
               Перевтілюйтесь в
-              <span class="capitalized">beaty zone!</span>
+              <span
+                class="section__heading--highlight section__heading--capitalize"
+                >beaty zone!</span
+              >
             </h2>
             <p class="about-us-section__text">
               Наша косметологічна клініка пропонує вам професійні послуги з
               догляду за шкірою обличчя та тіла.
             </p>
             <p class="about-us-section__text">
-              B <span class="capitalized">Beauty Zone</span> ми гарантуємо
-              найвищі стандарти якості та приємний сервіс. Наші косметологічні
-              процедури та препарати допоможуть вам підтримувати свою красу та
-              молодість. З нами краса назавжди!
+              B
+              <span class="about-us-section__text--highlighted capitalized"
+                >Beauty Zone</span
+              >
+              ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші
+              косметологічні процедури та препарати допоможуть вам підтримувати
+              свою красу та молодість. З нами краса назавжди!
             </p>
           </div>
           <div class="about-us-section__images-container">
@@ -92,10 +104,13 @@
           </div>
         </div>
       </section>
-      <section id="advantages-section">
+      <section class="advantages-section section" id="advantages-section">
         <div class="advantages-section__container">
-          <h2 class="advantages-section__heading">
-            Чому люди <span class="...">обирають нас</span>
+          <h2
+            class="advantages-section__heading section__heading section__heading--center"
+          >
+            Чому люди
+            <span class="section__heading--highlight">обирають нас</span>
           </h2>
           <ul class="advantages-section__list">
             <li class="advantages-section__item">
@@ -128,9 +143,11 @@
           </ul>
         </div>
       </section>
-      <section id="procedures-section">
-        <h2 class="procedures-section__heading">
-          Наші <span class="...">процедури</span>
+      <section class="procedures-section section" id="procedures-section">
+        <h2
+          class="procedures-section__heading section__heading section__heading--center"
+        >
+          Наші <span class="section__heading--highlight">процедури</span>
         </h2>
         <ul class="procedures-section__list">
           <li class="procedures-section__item">
@@ -165,25 +182,25 @@
           </li>
         </ul>
       </section>
-      <section id="contacts-section">
-        <h2 class="contacts-section__heading">
-          Як нас <span class="...">знайти</span>
+      <section class="contacts-section section" id="contacts-section">
+        <h2
+          class="contacts-section__heading section__heading section__heading--center"
+        >
+          Як нас <span class="section__heading--highlight">знайти</span>
         </h2>
         <div class="contacts-section__container">
           <iframe
             class="contacts-section__map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2537.475791668505!2d30.775223399999994!3d50.50671339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d97de411b701%3A0x48116b28f7f00d94!2z0LLRg9C70LjRhtGPINCi0LDRgNCw0YHQsCDQqNC10LLRh9C10L3QutCwLCA1LCDQkdGA0L7QstCw0YDQuCwg0JrQuNGX0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMDc0MDA!5e0!3m2!1suk!2sua!4v1763834613967!5m2!1suk!2sua"
-            width="600"
-            height="450"
-            style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-          <div class="form-container">
-            <h2 class="form-container__heading">
-              Запишіться <span class="...">безкоштовно</span> та отримайте
-              подарунок
+          <div class="form">
+            <h2 class="form__heading">
+              Запишіться
+              <span class="form__heading--highlight">безкоштовно</span> та
+              отримайте подарунок
             </h2>
             <form name="form" class="form__container">
               <div class="input">
@@ -194,79 +211,106 @@
                   class="input__control"
                   type="text"
                   id="first-and-last-name"
+                  placeholder="Ваше ім'я та прізвище"
                 />
               </div>
               <div class="input">
                 <label class="input__label" for="tel">
                   Ваш номер телефону
                 </label>
-                <input class="input__control" class="" type="tel" id="tel" />
+                <input
+                  class="input__control"
+                  type="tel"
+                  id="tel"
+                  placeholder="Ваш номер телефону"
+                />
               </div>
               <div class="input">
                 <label class="input__label" for="email">
                   Ваша електронна пошта
                 </label>
-                <input class="input__control" type="email" id="email" />
+                <input
+                  class="input__control"
+                  type="email"
+                  id="email"
+                  placeholder="Ваша електронна пошта"
+                />
               </div>
-              <button class="input__button" type="sumbit">
+              <button class="input__btn btn" type="sumbit">
                 Записатись безкоштовно
               </button>
             </form>
-            <p class="form-container__terms-text">
+            <p class="form__terms-text">
               Натискаючи на кнопку я погоджуюсь з
-              <a class="form-container__link" href="#">
-                політикою конфіденційності
-              </a>
+              <a class="form__link" href="#"> політикою конфіденційності </a>
             </p>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer section">
+      <div class="footer__logo">
+        <a class="logo" href="index.html">
+          <svg class="footer__logo">
+            <use href="/images/svg/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+      </div>
       <nav class="footer__nav">
-        <div class="footer__logo">
-          <a class="logo" href="index.html">
-            <svg class="footer__logo">
-              <use href="/images/svg/icons.svg#icon-logo"></use>
-            </svg>
-          </a>
-        </div>
         <ul class="footer__list">
           <li class="footer__item">
-            <a class="link" href="#about-us-section">Про нас</a>
+            <a class="footer__link" href="#about-us-section">Про нас</a>
           </li>
           <li class="footer__item">
-            <a class="link" href="#why-us-section">Чому ми</a>
+            <a class="footer__link" href="#why-us-section">Чому ми</a>
           </li>
           <li class="footer__item">
-            <a class="link" href="#our-procedures-section">Наші процедури</a>
+            <a class="footer__link" href="#our-procedures-section"
+              >Наші процедури</a
+            >
           </li>
           <li class="footer__item">
-            <a class="link" href="#contacts-section">Контакти</a>
+            <a class="footer__link" href="#contacts-section">Контакти</a>
           </li>
         </ul>
       </nav>
+      <address class="footer__address">
+        <a class="footer__link" href="tel:+38(096)0000007">
+          + 38 (096) 000 00 07
+        </a>
+        <a class="footer__link" href="email:beautyzone@gmail.com">
+          beautyzone@gmail.com
+        </a>
+        <a
+          class="footer__link"
+          href="https://maps.app.goo.gl/RwPZpQZDHLQYuvLS9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Україна, м. Київ, вул. Тараса Шевченка 5
+        </a>
+      </address>
       <div class="footer__socials">
-        <address class="address">
-          <a class="address__link" href="#" target="_blank">
-            <svg class="address__icon">
-              <use href="/images/svg/icons.svg#icon-telephone"></use>
-            </svg>
-          </a>
-          <a class="address__link" href="#" target="_blank">
-            <svg class="address__icon">
-              <use href="/images/svg/icons.svg#icon-facebook"></use>
-            </svg>
-          </a>
-          <a class="address__link" href="#" target="_blank">
-            <svg class="address__icon">
-              <use href="/images/svg/icons.svg#icon-instagram"></use>
-            </svg>
-          </a>
-        </address>
+        <a class="footer__link" href="#" target="_blank">
+          <svg class="footer__icon">
+            <use href="/images/svg/icons.svg#icon-telephone"></use>
+          </svg>
+        </a>
+        <a class="footer__link" href="#" target="_blank">
+          <svg class="footer__icon">
+            <use href="/images/svg/icons.svg#icon-facebook"></use>
+          </svg>
+        </a>
+        <a class="footer__link" href="#" target="_blank">
+          <svg class="footer__icon">
+            <use href="/images/svg/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
       </div>
-      <a class="footer__link" href="#">Політика конфіденційності</a>
-      <p class="footer__copyright">&copy; 2022 Дані захищені</p>
+      <div class="footer__privacy-policy">
+        <a class="footer__link" href="#">Політика конфіденційності</a>
+        <p class="footer__copyright">&copy; 2022 Дані захищені</p>
+      </div>
     </footer>
   </body>
 </html>

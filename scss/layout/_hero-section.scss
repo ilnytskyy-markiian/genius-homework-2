@@ -1,0 +1,23 @@
+@use "../utils/variables" as v;
+
+.hero-section {
+  padding-bottom: 126px;
+
+  &__text {
+    margin-bottom: 16px;
+
+    &:last-child {
+      color: var(--color-secondary-gray);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+
+  &__btn {
+    margin-bottom: 14px;
+  }
+
+  &__heading {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,10 @@
+.header {
+  &__link {
+    text-decoration: none;
+    color: var(--color-primary-darkblue);
+
+    &:hover {
+      color: var(--color-primary-brightblue);
+    }
+  }
+}

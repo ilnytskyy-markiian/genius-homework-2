@@ -1,0 +1,26 @@
+@use "../utils/variables" as v;
+
+.input {
+  // position: relative;
+  margin-bottom: 16px;
+
+  &__label,
+  &__control {
+    // color: var(--color-primary-white);
+    font-size: 13px;
+  }
+
+  &__control {
+    // color: var(--color-primary-white);
+    font-size: 13px;
+    border: 2px solid var(--color-secondary-lightergray);
+    border-radius: 32px;
+    width: 310px;
+    padding: 18px 32px;
+    background-color: transparent;
+  }
+
+  &__btn {
+    margin-bottom: 8px;
+  }
+}

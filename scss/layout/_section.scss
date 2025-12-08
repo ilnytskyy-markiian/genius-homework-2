@@ -1,0 +1,32 @@
+@use "../utils/variables" as v;
+
+.section {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  &__heading {
+    font-family: "Play";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: var(--color-primary-darkblue);
+
+    &--large {
+      font-size: 140px;
+      line-height: 0.8;
+    }
+
+    &--highlight {
+      color: var(--color-primary-brightblue);
+    }
+
+    &--capitalize {
+      text-transform: capitalize;
+    }
+
+    &--center {
+      text-align: center;
+    }
+  }
+}

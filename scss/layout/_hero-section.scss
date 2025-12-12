@@ -1,7 +1,27 @@
 @use "../utils/variables" as v;
 
 .hero-section {
-  padding-bottom: 126px;
+  &__container {
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.8509) 26%,
+        rgba(255, 255, 255, 0.1932) 53%,
+        rgba(255, 255, 255, 0) 74%
+      ),
+      url(/images/png/hero-background.png);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: right;
+    max-width: 1028px;
+    margin: 0 auto;
+    padding-bottom: 126px;
+  }
+
+  &__heading {
+    max-width: 530px;
+    margin-bottom: 40px;
+  }
 
   &__text {
     margin-bottom: 16px;
@@ -15,9 +35,5 @@
 
   &__btn {
     margin-bottom: 14px;
-  }
-
-  &__heading {
-    margin-bottom: 40px;
   }
 }
